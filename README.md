@@ -11,7 +11,8 @@ A lightweight Flask REST API that fetches public Instagram profile information a
 
 ## Termux Installation & Run
 
-Run the following all-in-one command in Termux to update packages, install Python & dependencies, and create the project directory:
+### Option 1: One-Line Setup (Recommended)
+Run this single command in Termux to install dependencies, clone the repository, and start the server:
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install python git -y && pip install flask requests && mkdir -p ig-profile-api && cd ig-profile-api
+pkg update -y && pkg upgrade -y && pkg install python git -y && git clone [https://github.com/sajjadulkhanabir143/](https://github.com/sajjadulkhanabir143/)<repo-name>.git && cd <repo-name> && pip install flask requests && python app.py
