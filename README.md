@@ -15,4 +15,4 @@ A lightweight Flask REST API that fetches public Instagram profile information a
 Run this single command in Termux to install dependencies, clone the repository, and start the server:
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install python git -y && git clone [https://github.com/sajjadulkhanabir143/Instainfo.git](https://github.com/sajjadulkhanabir143/Instainfo.git) && cd Instainfo && pip install flask requests && python app.py
+pkg update -y && pkg upgrade -y && pkg install python git -y && git clone https://github.com/sajjadulkhanabir143/Instainfo.git && cd Instainfo && pip install flask requests && python app.py
